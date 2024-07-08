@@ -1,0 +1,11 @@
+c Description: Random Disk-Graph [r = 0.1]
+p edge 20 9
+e 2 1
+e 5 0
+e 7 3
+e 9 4
+e 12 0
+e 12 5
+e 15 11
+e 16 1
+e 16 2

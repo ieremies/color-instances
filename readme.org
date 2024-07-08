@@ -1,0 +1,15 @@
+#+title: Readme
+
+* References for exact solvers
+[cite:@MendezDiaz06]
+[cite:@Malaguti11]
+[cite:@Held12]
+[cite:@Gualandi12]
+[cite:@Morrison16]
+[cite:@Furini16a]
+[cite:@Ternier17]
+[cite:@Jabrayilov18; @Jabrayilov22]
+[cite:@Hoeve21]
+[cite:@Heule22]
+
+[cite:@Hulst21] - Não confiar muito, mas dá para usar como base de pesquisa
