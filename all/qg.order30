@@ -11,7 +11,7 @@ c
 c Graph Structure: The graph has 900 nodes and 26100 edges.
 c Num. colors (optimal): 30
 c
-p edges 900 26100
+p edge 900 26100
 e 1 2
 e 1 3
 e 1 4
