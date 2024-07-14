@@ -1,15 +1,30 @@
 #+title: Readme
 
 * References for exact solvers
-[cite:@MendezDiaz06]
-[cite:@Malaguti11]
-[cite:@Held12]
-[cite:@Gualandi12]
-[cite:@Morrison16]
-[cite:@Furini16a]
-[cite:@Ternier17]
-[cite:@Jabrayilov18; @Jabrayilov22]
-[cite:@Hoeve21]
-[cite:@Heule22]
+The best know lower and upper bound can be found in [[./lit/best.csv]].
+** [cite:@MendezDiaz06]
+** [cite:@Malaguti11]
+** [cite:@Held12]
+** [cite:@Gualandi12]
+** [cite:@Morrison16]
+** [cite:@Furini16a]
+** [cite:@Ternier17]
+** [cite:@Jabrayilov18; @Jabrayilov22]
+** [cite:@Hoeve21]
+[[./lit/hoeve21-table1.csv]] has the comparison between the relaxed and exact decision diagram (the former performs better).
+[[./lit/hoeve21-table2.csv]] has the best results they could manage with different configurations. Also, it serves as a benchmark for the results of the DSATUR heuristic.
+[[./lit/hoeve21-table3.csv]] has the comparison between the [cite:@Held12] of [cite:@Mehrotra96] and their best configuration.
 
-[cite:@Hulst21] - Não confiar muito, mas dá para usar como base de pesquisa
+Relaxed Diagram can find optimal in more instances in less time (table 1).
+The best ordering are the Max-Connected-Degree and DSATUR ordering (table 2).
+They also ran the [cite:@Held12] implementation on they machine: Held's solves more instances to optimal, but DD can return an LB in all instances.
+  # TODO mas esse LB é melhor que o cliquer?
+
+Their results where obtained on a Intel Xeon E5345 @ 2.33 Ghz
+** [cite:@Heule22]
+Uses an alternating Max Clique and Graph Coloring SAT solvers.
+The reported time is the average of 128 seeds on a AMD EPYC 7742.
+Using an Intel Xeon @ 2.33GHz, they proved optimal for 83 instances.
+
+The csv can be found in [[./lit/heule22.csv]].
+
