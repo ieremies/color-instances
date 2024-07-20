@@ -1,0 +1,26 @@
+c File: data_files/evolved_graphs/g5430.col
+c
+c Auto generated graph
+c
+p edge 100 21
+e 1 4
+e 2 4
+e 2 5
+e 2 6
+e 2 14
+e 2 45
+e 2 52
+e 2 63
+e 3 4
+e 3 13
+e 3 34
+e 3 99
+e 4 6
+e 6 10
+e 6 24
+e 8 24
+e 9 24
+e 24 26
+e 24 27
+e 24 28
+e 24 57

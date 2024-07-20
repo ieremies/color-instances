@@ -1,0 +1,10 @@
+c File: data_files/evolved_graphs/g8059.col
+c
+c Auto generated graph
+c
+p edge 100 5
+e 1 4
+e 1 61
+e 2 4
+e 2 61
+e 3 4

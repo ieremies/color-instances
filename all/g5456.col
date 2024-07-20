@@ -1,0 +1,25 @@
+c File: data_files/evolved_graphs/g5456.col
+c
+c Auto generated graph
+c
+p edge 100 20
+e 1 4
+e 2 4
+e 2 45
+e 3 4
+e 3 55
+e 3 57
+e 3 58
+e 3 59
+e 3 60
+e 3 62
+e 3 99
+e 4 53
+e 6 24
+e 8 24
+e 9 24
+e 24 26
+e 24 27
+e 24 28
+e 24 29
+e 24 57
